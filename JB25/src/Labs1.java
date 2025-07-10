@@ -16,7 +16,7 @@ public class Labs1
     static void arifmetica2 ()
     {
         int number = 10500;
-        int result = (number/10)/10;
+        double result = (double)(number/10)/10;
         System.out.println("result = " + result);
     }
 

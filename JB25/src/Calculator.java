@@ -15,7 +15,7 @@ public class Calculator
     {
         return a + b;
     }
-    
+
 // Вычетание
     public int sub (int a, int b)
     {
@@ -49,7 +49,7 @@ public class Calculator
     {
         if (b != 0)
         {
-            return a / b;
+            return (double)(a / b);
         }
         else
         {
@@ -75,7 +75,7 @@ public class Calculator
     {
         if (b != 0)
         {
-            return a / b;
+            return (double)(a / b);
         }
         else
         {
